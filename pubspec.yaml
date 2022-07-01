@@ -41,9 +41,10 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   flutter_translate: ^4.0.2
-  fluttertoast: ^8.0.9
+  flutter-toast: ^8.0.9
   sizer: ^2.0.15
   flutter_svg_provider: ^1.0.3
+  restart_app: ^1.1.0+1
 
 dev_dependencies:
   flutter_test:

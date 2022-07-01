@@ -9,6 +9,7 @@ class DioHelper {
       BaseOptions(
         baseUrl: baseURL,
         receiveDataWhenStatusError: true,
+
       ),
     );
   }

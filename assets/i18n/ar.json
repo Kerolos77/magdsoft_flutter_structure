@@ -1,3 +1,19 @@
 {
-  
+    "lang" : "English",
+    "email" : "البريد الإلكتروني",
+    "password" : "كلمة المرور",
+    "password_confirmation" : "تأكيد كلمة المرور",
+    "name" : "الاسم بالكامل",
+    "phone" : "تليفون",
+    "login" : "دخول",
+    "register" : "تسجيل",
+    "logout" : "تسجيل الخروج",
+    "profile" : "بيانات المستخدم",
+    "user_email" : "البريد",
+    "user_name" : "الاسم",
+    "login_success" : "تم الدخول بنجاح",
+    "error" : "لا يمكن ان يكون فارغا",
+    "register_success" : "تم التسجيل بنجاح",
+    "logout_success" : "تم الخروج بنجاح",
+    "confirm_password" :"يجب ان تتطابق مع كلمة المرور"
 }

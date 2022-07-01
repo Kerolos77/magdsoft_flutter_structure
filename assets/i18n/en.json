@@ -1,3 +1,19 @@
 {
-  
+    "lang" : "عربي",
+    "email" : "Email",
+    "password" : "Password",
+    "password_confirmation" : "Confirm Password",
+    "name" : "Full Name",
+    "phone" : "Phone",
+    "login" : "Login",
+    "register" : "Register",
+    "logout" : "Logout",
+    "profile" : "User Data",
+    "user_email" : "email",
+    "user_name" : "name",
+    "login_success" : "login success",
+    "error" : "login error can't be empty",
+    "register_success" : "register success",
+    "logout_success" : "logout success",
+    "confirm_password" : "must be same as password"
 }

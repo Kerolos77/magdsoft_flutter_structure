@@ -13,6 +13,8 @@ import 'package:magdsoft_flutter_structure/presentation/widget/toast.dart';
 import 'package:sizer/sizer.dart';
 import 'package:intl/intl.dart';
 
+import 'componants/applocal.dart';
+
 
 late LocalizationDelegate delegate;
 
@@ -29,9 +31,10 @@ Future<void> main() async {
         supportedLocales: ['ar', 'en'],
       );
       await delegate.changeLocale(Locale(locale));
-      runApp(MyApp(
-        appRouter: AppRouter(),
-      ));
+
+      runApp(
+          MyApp(appRouter: AppRouter(),)
+      );
     },
     blocObserver: MyBlocObserver(),
   );
@@ -61,7 +64,7 @@ class _MyAppState extends State<MyApp> {
           Intl.defaultLocale = value.languageCode;
         });
       } catch (e) {
-        showToast(e.toString());
+        showToast(e.toString(), context);
       }
     };
   }
@@ -86,6 +89,7 @@ class _MyAppState extends State<MyApp> {
                     debugShowCheckedModeBanner: false,
                     title: 'Werash',
                     localizationsDelegates: [
+                      AppLocale.delegate,
                       GlobalCupertinoLocalizations.delegate,
                       DefaultCupertinoLocalizations.delegate,
                       GlobalMaterialLocalizations.delegate,
